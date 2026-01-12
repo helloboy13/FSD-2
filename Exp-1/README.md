@@ -1,11 +1,16 @@
-## Learning Outcomes: SPA vs MPA
+## Learning Outcomes: SPA vs MPA (Basic)
 
-1. **Single Page Applications (SPAs) provide superior user experience** - SPAs load content dynamically without full page refreshes, resulting in faster navigation and smoother interactions compared to traditional MPAs that require complete page reloads.
+- **Single Page Applications (SPAs) load once and update content dynamically**  
+  SPAs load the page only one time and update content without refreshing the whole page.
 
-2. **Client-side routing eliminates server requests for navigation** - By implementing client-side routing in SPAs using React Router, users can navigate between pages instantly without needing to request resources from the server, reducing latency and server load.
+- **Multi Page Applications (MPAs) reload pages on every action**  
+  In MPAs, each click or navigation loads a new page from the server.
 
-3. **SPAs require robust state management for complex applications** - Managing application state becomes critical in SPAs as data persistence and component communication need to be handled on the client-side, unlike MPAs where each page load provides a fresh state.
+- **SPAs provide a smoother user experience**  
+  Since SPAs do not reload the full page, they feel faster and more interactive.
 
-4. **Initial load time trade-off in SPAs vs faster subsequent navigation** - While SPAs require a larger initial JavaScript bundle to load upfront, they offer significantly faster navigation between routes, making them ideal for applications with frequent user interactions.
+- **MPAs are simpler for beginners to build and understand**  
+  MPAs use basic HTML pages and server-side navigation, making them beginner-friendly.
 
-5. **MPAs remain valuable for SEO and specific use cases** - Multi-Page Applications are still preferable for content-heavy websites that require better search engine optimization and can benefit from server-side rendering, whereas SPAs require additional techniques like pre-rendering or SSR to achieve optimal SEO.
+- **Both SPAs and MPAs are chosen based on project requirements**  
+  SPAs are commonly used for web applications, while MPAs are used for traditional websites.
