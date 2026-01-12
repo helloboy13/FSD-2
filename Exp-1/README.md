@@ -1,16 +1,11 @@
-# React + Vite
+## Learning Outcomes: SPA vs MPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. **Single Page Applications (SPAs) provide superior user experience** - SPAs load content dynamically without full page refreshes, resulting in faster navigation and smoother interactions compared to traditional MPAs that require complete page reloads.
 
-Currently, two official plugins are available:
+2. **Client-side routing eliminates server requests for navigation** - By implementing client-side routing in SPAs using React Router, users can navigate between pages instantly without needing to request resources from the server, reducing latency and server load.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. **SPAs require robust state management for complex applications** - Managing application state becomes critical in SPAs as data persistence and component communication need to be handled on the client-side, unlike MPAs where each page load provides a fresh state.
 
-## React Compiler
+4. **Initial load time trade-off in SPAs vs faster subsequent navigation** - While SPAs require a larger initial JavaScript bundle to load upfront, they offer significantly faster navigation between routes, making them ideal for applications with frequent user interactions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. **MPAs remain valuable for SEO and specific use cases** - Multi-Page Applications are still preferable for content-heavy websites that require better search engine optimization and can benefit from server-side rendering, whereas SPAs require additional techniques like pre-rendering or SSR to achieve optimal SEO.
