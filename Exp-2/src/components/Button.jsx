@@ -3,7 +3,6 @@ import TextField from '@mui/material/TextField';
 import Rating from '@mui/material/Rating';
 import Slider from '@mui/material/Slider';
 import ToggleButton from '@mui/material/ToggleButton';
-import { lazy } from 'react';
 
 export default function ButtonBasic() {
   return (
@@ -23,5 +22,5 @@ export default function ButtonBasic() {
     <ToggleButton value="web">Web</ToggleButton>
     <br/>
     </>
-  ) 
+  )
 }
