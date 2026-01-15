@@ -19,7 +19,7 @@ export default function ButtonBasic() {
     <Button size="large" variant='text'>Large</Button>
     <br/>
     <br/>
-    <TextField label="Small" size="small" variant="outlined" />
+    <TextField label="Small" size="small" variant="outlined"/>
     <TextField label="Medium" size="medium" variant="outlined" />
     </>
   ) 
