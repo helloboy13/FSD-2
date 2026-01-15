@@ -1,4 +1,5 @@
 import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
 
 export default function ButtonBasic() {
   return (
@@ -16,6 +17,10 @@ export default function ButtonBasic() {
     <Button size='small' variant='text'>Small</Button>
     <Button size="medium" variant='text'>Medium</Button>
     <Button size="large" variant='text'>Large</Button>
+    <br/>
+    <br/>
+    <TextField label="Small" size="small" variant="outlined" />
+    <TextField label="Medium" size="medium" variant="outlined" />
     </>
   ) 
 }
