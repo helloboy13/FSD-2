@@ -1,16 +1,24 @@
-# React + Vite
+## 📘 Learning Outcomes: React Router (react-router-dom)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1️⃣ Understanding Client-Side Routing
+Learned how React Router enables **client-side navigation** without reloading the page, improving performance and user experience in single-page applications (SPAs).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 2️⃣ Implementing BrowserRouter and Routes
+Gained hands-on experience using **BrowserRouter**, **Routes**, and **Route** components to define and manage multiple pages within a React application.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 3️⃣ Navigation Using Link and NavLink
+Understood how to navigate between pages using **Link** and **NavLink**, and how NavLink helps in applying **active styles** for better UI navigation.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4️⃣ Creating Dynamic and Nested Routes
+Learned how to create **dynamic routes** using URL parameters and **nested routes** to build structured and scalable applications.
+
+---
+
+### 5️⃣ Handling Page Not Found and Route Protection
+Implemented **fallback routes (404 pages)** and understood the basics of **protected routes** to control access to specific pages.
